@@ -1,3 +1,8 @@
+body{
+    padding: 0px;
+    font-family: 'Baloo Bhai', cursive;
+    overflow-x: hidden;
+}
 .bg-principal{
     background-size: 100% 100%;
     background-image: url(../img/fundo1.jpg);
@@ -5,9 +10,4 @@
     background-position: top;
     width:100%;
     height: 40.8em;
-}
-@media (max-width: 970px){
-    .principal{
-        padding-top:300px;
-    }
 }
