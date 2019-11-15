@@ -11,3 +11,25 @@ body{
     width:100%;
     height: 40.8em;
 }
+.borda_footer{
+    width:120px;
+    height:20px;
+    background-color:#bd262E;
+}
+.nav-link:hover{
+    border-bottom: solid 2px #bd262E;
+}
+@media (max-width: 970px) {
+    #terceira {
+        display:none ;
+    }
+}
+#j_sucesso{
+    display: none;
+}
+#j_enviando{
+    display: none;
+}
+#j_error{
+    display:none;
+}

@@ -1,3 +1,6 @@
+<?php 
+    include_once 'config.php'; 
+?>
 <!doctype html>
 <html>
     <head>
@@ -50,7 +53,7 @@
             </div>
         </header>
         <article class="container text-center mt-5 mb-5">
-            <h2 class="h2 pb-5">Quais são suas metas?</h2>
+            <h2 class="h2 pb-5 borda_trans">Quais são suas metas?</h2>
             <div class="row pt-5">
                 <div class="col-md-3 col-sm-2">
                     <div class="">
@@ -109,9 +112,9 @@
             <div class="row mt-5 py-md-3 py-sm-0 justify-content-center">
                 <div class="col-md-4 col-sm-12 text-center ">
                     <div class="bg-light my-md-3 my-sm-0 rounded-pill">
-                        <img src="assets/img/icones/agenda.png">
+                        <img src="assets/img/icones/agenda.png" id="move">
                         <h4>Agendamento</h4>
-                        <p class="lead  p-2">Agendamos uma reunião gratuita, presencial ou pelo telefone.</p>
+                        <p class="lead  p-2" id="janela">Agendamos uma reunião gratuita, presencial ou pelo telefone.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 text-center">
@@ -124,7 +127,7 @@
                 <div class="col-md-4 col-sm-12 text-center">
                     <div class="bg-light my-md-3 my-sm-0 rounded-pill">
                         <img src="assets/img/icones/diagnostico.png">
-                        <h4>Diagnóstico fin
+                        <h4>Diagnóstico</h4>
                         <p class="lead p-2">Apresentamos um diagnostico financeiro com base na situação do cliente.</p>
                     </div>
                 </div>
@@ -150,31 +153,49 @@
                     <span class="h6 d-block text-light pt-5">A gap connect tem uma solução ideal para você!</span>
                     <h5 class="display-4 text-primary pb-5">Fale Conosco</h5>
                 </div>
+                <!--Sucesso no envio-->
+                <div class="j_seletor alert alert-success" id="j_sucesso" role="alert" >
+                    <h4 class="alert-heading">Well done!</h4>
+                    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                    <hr>
+                    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                </div>
                 <div class="row d-flex align-items-center">
                     <div class="col ">
-                        <form class="bg-light rounded p-4 box-shadow" action="">
+                        <form id="jcontrol" class="bg-light rounded p-4 box-shadow" action="<?= HOME ?>/js/requisicao/requisicao.php">
                             <div class="form-group">
                                 <label for="nome">Nome Completo*</label>
-                                    <input type="text" class="form-control" id="nome" aria-describedby="nome" >
+                                    <input type="text" name="name" class="form-control" id="nome" aria-describedby="nome" required >
                             </div>
                             <div class="form-group">
                                 <label for="telefone">Telefone*</label>
-                                <input type="number" class="form-control" id="telefone">
+                                <input type="number" name="telefone" class="form-control" id="telefone"  required>
                             </div>
                             <div class="form-group">
                                 <label for="cpf">cpf*</label>
-                                <input type="number" class="form-control" id="cpf">
+                                <input type="number" name="cpf" class="form-control" id="cpf" required >
                             </div>
                             <div class="form-group">
                                 <label for="convenio">Qual seu convenio?</label>
-                                <select class="form-control" id="convenio">
+                                <select class="form-control" name="convenio" id="convenio">
                                     <option></option>
                                     <option>INSS Dataprev</option>
                                     <option>Siape</option>
                                     <option>Outo</option>
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <button type="submit" class="btn btn-primary" method="POST">Enviar</button>
+                            <!--Erro-->
+                            <div class="j_seletor alert alert-danger" id="j_error" role="alert">
+                                Tente novamente, houve um erro!
+                                Caso error persiste, ligue para nos.
+                            </div>
+                            <!--Enviando-->
+                            <div class="d-flex justify-content-center" >
+                                <div class="j_seletor spinner-border" role="status" id="j_enviando">
+                                    <span class="sr-only">Loading...</span>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -234,13 +255,18 @@
                             <img id="gap" src="assets/img/slogan.png" >
                             <p class="lead">Bem vindo a Gap consultoria. Somos uma união de consultores na area de contabil, que trabalha com a prestação de serviços na área de auditoria, consultoria, pericia e asses</p>
                         </div>
+                        <div class="borda_footer"></div>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <h6 class="h1 pt-5">Fale conosco</h6>
                         <div class="borda_footer" id="terceira"></div>
                         <address class="">
-                            <a href="emailto:contato@gapconnectconsultoria.com.br" class="text-decoration-none"><p class="lead text-white">contato@gapconnectconsultoria.com.br</p></a>
-                            <a class="text-decoration-none text-white" href="tel:213655-9999"><p class="lead">(21)3655-9999</p></a>
+                            <a class="text-decoration-none" href="mailto:contato@gapconnectconsultoria.com.br">
+                                <p class="text-white">contato@gapconnectconsultoria.com.br</p>
+                            </a>
+                            <a class="text-decoration-none text-white" href="tel:213655-9999">
+                                <p class="lead">(21)3655-9999</p>
+                            </a>
                             <a class="text-decoration-none text-white" href="https://www.google.com/maps/place/Servi%C3%A7o+Registral+do+11%C2%BA+Of%C3%ADcio+de+Im%C3%B3veis/@-22.9017288,-43.1811983,3a,75y,331.25h,93.28t/data=!3m7!1e1!3m5!1s_5cl0nkm3DxZFklqHiqdyQ!2e0!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3D_5cl0nkm3DxZFklqHiqdyQ%26output%3Dthumbnail%26cb_client%3Dsearch.TACTILE.gps%26thumb%3D2%26w%3D211%26h%3D120%26yaw%3D331.52408%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656!4m5!3m4!1s0x997f5c5b8fdb1b:0x636b1fc1fa537351!8m2!3d-22.9015114!4d-43.1813171"><p class="lead">Av. Presidente Vargas, n°542, 13ºandar - sala 1304 - Rio de Janeiro/RJ.</p></a>
                         </address>
                     </div>
@@ -250,5 +276,6 @@
         <!--Fim do codigo-->
         <script type="text/javascript" src="assets/js/jquery-3.4.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
     </body>   
 </html>
