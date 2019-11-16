@@ -10,11 +10,11 @@
         <meta name="geo.placename" content="Rio de Janeiro" >
         <meta name="geo.position" content="-22.903052;-43.18617" >
         <meta name="ICBM" content="-22.903052, -43.18617" >
-        <meta name="keywords" content="gapconnect, gapconsultoria, emprestimopessoal">
+        <meta name="keywords" content="gapconnect, gapconsultoria, emprestimo pessoal, consultoria financeira, financeira, emprestimo, metas financeiras ">
         <meta name="description" content="" >
         <meta name="author" content="@jlbnwill">
         <meta name="application-name" content="Gap connect consultoria">
-        <link rel="shortcut icon" href="" type="image/png">
+        <link rel="shortcut icon" href="assets/img/icones/img-shout-gap.png" type="image/png">
         <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -107,7 +107,7 @@
         </article>
         <article class="container-fluid  pt-5 bg-danger">
             <div class="ml-5">
-                <span class="h2 d-block text-light">Como funciona a consultoria financeira?<span>
+                <span class="h2 d-block text-light">Como funciona a consultoria financeira?</span>
             </div>
             <div class="row mt-5 py-md-3 py-sm-0 justify-content-center">
                 <div class="col-md-4 col-sm-12 text-center ">
@@ -151,14 +151,14 @@
             <div class="container pb-5">
                 <div class="text-center">
                     <span class="h6 d-block text-light pt-5">A gap connect tem uma solução ideal para você!</span>
-                    <h5 class="display-4 text-primary pb-5">Fale Conosco</h5>
+                    <h5 class="display-4 text-danger pb-5">Fale Conosco</h5>
                 </div>
                 <!--Sucesso no envio-->
                 <div class="j_seletor alert alert-success" id="j_sucesso" role="alert" >
-                    <h4 class="alert-heading">Well done!</h4>
-                    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                    <h4 class="alert-heading">obrigado!</h4>
+                    <p>Dentro de no máximo 3 dias, um de nossos consultores entrará em contato com você por telefone.</p>
                     <hr>
-                    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                    <p class="mb-0">Não pedidos nenhum deposito adiantado, para efetuar nenhuma transação.</p>
                 </div>
                 <div class="row d-flex align-items-center">
                     <div class="col ">
@@ -204,7 +204,7 @@
         <article class="container">
             <div class="text-center">
                 <span class="h6 d-block text-light pt-5"></span>
-                <h5 class="display-4 text-primary pb-5">Dúvidas frequentes</h5>
+                <h5 class="display-4 text-danger pb-5">Dúvidas frequentes</h5>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-6 col-sm-12" id="duvidasfrequentes" data-children=".pergunta">
