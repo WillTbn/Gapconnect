@@ -52,55 +52,61 @@
                 <b class="mb-5"> Agende a primeira reunião gratuita presencial ou pelo telefone!</b>
             </div>
         </header>
-        <article class="container text-center mt-5 mb-5">
+        <article class="container-fluid pl-5 text-center mt-5 mb-5">
             <h2 class="h2 pb-5 borda_trans">Quais são suas metas?</h2>
-            <div class="row pt-5">
-                <div class="col-md-3 col-sm-2">
+            <div class="row pt-5 py-5">
+                <div class="col-lg-4 col-md-6  col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/casa_propria.png" class="img-fluid">
+                        <img src="assets/img/icones/casa_propria.png" class="img-fluid" style="max-width:280px">
                         <p class="h5">Compra sua casa própria</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-2">
+                <div class="col-lg-4 col-md-6  col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/chave_carro.png" class="img-fluid mb-4" style="">
+                        <img src="assets/img/icones/chave_carro.png" class="img-fluid mb-4" style="max-width:280px">
                         <p class="h5">Comprar um novo carro</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-2">
+                <div class="col-lg-4 col-md-6  col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/casa_praia.png" class="img-fluid">
-                        <p class="h5">Comprar um casa de praia</p>
+                        <img src="assets/img/icones/casa_praia.png" class="img-fluid" style="max-width:280px">
+                        <p class="h5">Comprar uma casa de praia</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-2">
+                <div class="col-lg-4 col-md-6  col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/viagem.png" class="img-fluid">
+                        <img src="assets/img/icones/viagem.png" class="img-fluid" style="max-width:280px">
                         <p class="h5">Fazer uma viagem dos sonhos</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-2">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/aposentar.png" class="img-fluid">
+                        <img src="assets/img/icones/aposentar.png" class="img-fluid" style="max-width:280px">
                         <p class="h5">Se aponsentar cedo</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-2 mr-sm-0">
+                <div class="col-lg-4 col-md-6  col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/dividas.png" class="img-fluid" >
+                        <img src="assets/img/icones/dividas.png" class="img-fluid" style="max-width:280px">
                         <p class="h5">Se ver livra das dívidas</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-2">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/planejar.png" class="img-fluid" >
+                        <img src="assets/img/icones/planejar.png" class="img-fluid" style="max-width:280px">
                         <p class="h5">Planejar seu futuro</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-2">
+                <div class="col-lg-4 col-md-6  col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/faculdade.png" class="img-fluid">
+                        <img src="assets/img/icones/faculdade.png" class="img-fluid" style="max-width:280px">
                         <p class="h5">Pagar a faculdade dos filhos</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  col-sm-12">
+                    <div class="">
+                        <img src="assets/img/icones/1.png" class="img-fluid" style="max-width:280px">
+                        <p class="h5"></p>
                     </div>
                 </div>
             </div>
@@ -111,38 +117,38 @@
             </div>
             <div class="row mt-5 py-md-3 py-sm-0 justify-content-center">
                 <div class="col-md-4 col-sm-12 text-center ">
-                    <div class="bg-light my-md-3 my-sm-0 rounded-pill">
+                    <div class="bg-light my-md-3 my-sm-0 rounded-pill efeito">
                         <img src="assets/img/icones/agenda.png" id="move">
                         <h4>Agendamento</h4>
                         <p class="lead  p-2" id="janela">Agendamos uma reunião gratuita, presencial ou pelo telefone.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 text-center">
+                <div class="col-md-4 col-sm-12 text-center efeito-2">
                     <div class="bg-light my-md-3 my-sm-0 rounded-pill ">
                         <img src="assets/img/icones/reunião.png">
                         <h4>1º Reunião gratuita</h4>
-                        <p class="lead  p-2">Alinhamos as necessidades e objetivo do trabalho.</p>
+                        <p class="lead  p-2" id="janela-2">Alinhamos as necessidades e objetivo do trabalho.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 text-center">
+                <div class="col-md-4 col-sm-12 text-center efeito-3">
                     <div class="bg-light my-md-3 my-sm-0 rounded-pill">
                         <img src="assets/img/icones/diagnostico.png">
                         <h4>Diagnóstico</h4>
-                        <p class="lead p-2">Apresentamos um diagnostico financeiro com base na situação do cliente.</p>
+                        <p class="lead p-2" id="janela-3">Apresentamos um diagnostico financeiro com base na situação do cliente.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 text-center">
+                <div class="col-md-4 col-sm-12 text-center efeito-4">
                     <div class="bg-light my-md-3 my-sm-0 rounded-pill">
                         <img src="assets/img/icones/plano-acao.png">
                         <h4>Plano de Ação</h4>
-                        <p class="lead p-2">Elaboramos um plano de ação com o fim de alcaçarmos os objetivos.</p>
+                        <p class="lead p-2" id="janela-4">Elaboramos um plano de ação com o fim de alcaçarmos os objetivos.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 align-self-center text-center">
+                <div class="col-md-4 col-sm-12 align-self-center text-center mb-5 efeito-5">
                     <div class="bg-light my-md-3 my-sm-0 rounded-pill">
                         <img src="assets/img/icones/execucao.png">
                         <h4>Execução e acompanhamento</h4>
-                        <p class="lead p-2">Colocamos o plano em prática, se necessário, revisá-lo.</p>
+                        <p class="lead p-2" id="janela-5">Colocamos o plano em prática, se necessário, revisá-lo.</p>
                     </div>
                 </div>    
             </div>

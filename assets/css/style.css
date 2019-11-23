@@ -33,3 +33,9 @@ body{
 #j_error{
     display:none;
 }
+#janela, #janela-2, #janela-3, #janela-4, #janela-5 {
+    display:none;
+}
+.efeito, .efeito-2, .efeito-3, .efeito-4, .efeito-5 {
+    cursor: pointer;
+}

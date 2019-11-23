@@ -42,3 +42,20 @@ $(document).ready(function() {
       return false;
   });
 });
+$(function(){
+    $('.efeito').bind('click', function(){
+        $('#janela').fadeToggle();
+    });
+    $('.efeito-2').bind('click', function(){
+        $('#janela-2').fadeToggle();
+    });
+    $('.efeito-3').bind('click', function(){
+        $('#janela-3').fadeToggle();
+    });
+    $('.efeito-4').bind('click', function(){
+        $('#janela-4').fadeToggle();
+    });
+    $('.efeito-5').bind('click', function(){
+        $('#janela-5').fadeToggle();
+    });
+});
