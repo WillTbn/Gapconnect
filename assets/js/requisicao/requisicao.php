@@ -4,8 +4,9 @@ $ReqPOST = filter_input_array(INPUT_POST, FILTER_DEFAULT);
 $Json['error'] = true;
 $Nome = $ReqPOST["dados"][0]["value"];
 $telefone = $ReqPOST["dados"][1]["value"];
-$cpf = $ReqPOST["dados"][2]["value"];
-$convenio = $ReqPOST["dados"][3]["value"];
+$celular = $ReqPOST["dados"][2]["value"];
+$cpf = $ReqPOST["dados"][3]["value"];
+$convenio = $ReqPOST["dados"][4]["value"];
 //enviando e-mail FUNCIONANDO
 /*
 $para = 'jlbnunes@live.com';
@@ -51,7 +52,8 @@ $Mailer->Body = "
     <body>
         <h1>Mensagem recebida atraves do site </h1>
         <p>Nome do cliente:<strong>  {$Nome} </strong><br/></p>
-        <p>E-mail:<strong> {$telefone} </strong><br/></p>
+        <p>telefone:<strong> {$telefone} </strong><br/></p>
+        <p>celular: <strong> {$celular} </strong><br/></p>
         <p>CPF: <strong> {$cpf} </strong><br/></p>
         <p>Convenio:<strong> {$convenio} </strong><br/></p>
     </body>

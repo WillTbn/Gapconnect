@@ -141,14 +141,14 @@
                     <div class="bg-light my-md-3 my-sm-0 rounded-pill">
                         <img src="assets/img/icones/plano-acao.png">
                         <h4>Plano de Ação</h4>
-                        <p class="lead p-2" id="janela-4">Elaboramos um plano de ação com o fim de alcaçarmos os objetivos.</p>
+                        <p class="lead p-2" id="janela-4">Elaboramos um plano de ação com o fim de alcançarmos os objetivos.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 align-self-center text-center mb-5 efeito-5">
                     <div class="bg-light my-md-3 my-sm-0 rounded-pill">
                         <img src="assets/img/icones/execucao.png">
                         <h4>Execução e acompanhamento</h4>
-                        <p class="lead p-2" id="janela-5">Colocamos o plano em prática, se necessário, revisá-lo.</p>
+                        <p class="lead p-2" id="janela-5">Colocamos o plano em prática, se necessário, revisamos.</p>
                     </div>
                 </div>    
             </div>
@@ -167,28 +167,36 @@
                     <p class="mb-0">Não pedidos nenhum deposito adiantado, para efetuar nenhuma transação.</p>
                 </div>
                 <div class="row d-flex align-items-center">
-                    <div class="col ">
-                        <form id="jcontrol" class="bg-light rounded p-4 box-shadow" action="<?= HOME ?>/js/requisicao/requisicao.php">
+                    <div class="col">
+                        <form id="jcontrol" class="bg-light rounded p-4 mb-5 box-shadow" action="<?= HOME ?>/js/requisicao/requisicao.php">
                             <div class="form-group">
                                 <label for="nome">Nome Completo*</label>
                                     <input type="text" name="name" class="form-control" id="nome" aria-describedby="nome" required >
                             </div>
-                            <div class="form-group">
-                                <label for="telefone">Telefone*</label>
-                                <input type="number" name="telefone" class="form-control" id="telefone"  required>
+                            <div class="form-group row">
+                                <div class="col-md-4 col-sm-12">
+                                    <label for="telefone">Telefone*</label>
+                                    <input type="tel" name="telefone" id="telefone" class="form-control" id="telefone" placeholder="(00) 0000-0000">
+                                </div>
+                                <div class="col-md-3 col-sm-12">
+                                    <label for="telefone">Celular*</label>
+                                    <input type="tel" name="celular" id="celular" class="form-control" id="celular" placeholder="(00) 90000-0000" required>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="cpf">cpf*</label>
-                                <input type="number" name="cpf" class="form-control" id="cpf" required >
-                            </div>
-                            <div class="form-group">
+                            <div class="form-group row">
+                                <div class="col-md-6 col-sm-12">
+                                    <label for="cpf">cpf*</label>
+                                    <input type="tel" name="cpf" id="cpf" class="form-control" id="cpf" placeholder="somente numeros" required >
+                                </div>
+                                <div class="col-md-6 col-sm-12">
                                 <label for="convenio">Qual seu convenio?</label>
                                 <select class="form-control" name="convenio" id="convenio">
                                     <option></option>
                                     <option>INSS Dataprev</option>
                                     <option>Siape</option>
-                                    <option>Outo</option>
+                                    <option>Outro</option>
                                 </select>
+                                </div>
                             </div>
                             <button type="submit" class="btn btn-primary" method="POST">Enviar</button>
                             <!--Erro-->
@@ -282,6 +290,7 @@
         <!--Fim do codigo-->
         <script type="text/javascript" src="assets/js/jquery-3.4.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.mask.js"></script>
         <script type="text/javascript" src="assets/js/app.js"></script>
     </body>   
 </html>
