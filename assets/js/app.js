@@ -47,7 +47,7 @@ $(function(){
         $('#janela').fadeToggle();
     });
     $('.efeito-2').bind('click', function(){
-        $('#janela-2').fadeToggle('fast', 2);
+        $('#janela-2').fadeToggle();
     });
     $('.efeito-3').bind('click', function(){
         $('#janela-3').fadeToggle();
