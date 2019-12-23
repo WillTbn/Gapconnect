@@ -31,16 +31,13 @@
             <div id="navbarMenu" class="navbar-collapse collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#quemsomos">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quem Somos</a>
+                        <a class="nav-link" href="#vantagens">Vantagens</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Vantagens</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-outline-secondary " href="#">Entra em Contato</a>
+                        <a class="btn btn-outline-secondary " href="#contato">Entra em Contato</a>
                     </li>           
                 </ul>
             </div>
@@ -52,7 +49,7 @@
                 <b class="mb-5"> Agende a primeira reunião gratuita presencial ou pelo telefone!</b>
             </div>
         </header>
-        <article class="container-fluid pl-5 text-center mt-5 mb-5">
+        <article class="container-fluid pl-5 text-center mt-5 mb-5" id="vantagens">
             <h2 class="h2 pb-5 borda_trans">Quais são suas metas?</h2>
             <div class="row pt-5 py-5">
                 <div class="col-lg-4 col-md-6  col-sm-12">
@@ -111,7 +108,7 @@
                 </div>
             </div>
         </article>
-        <article class="container-fluid  pt-5 bg-danger">
+        <article class="container-fluid  pt-5 bg-danger" id="quemsomos" >
             <div class="ml-5">
                 <span class="h2 d-block text-light">Como funciona a consultoria financeira?</span>
             </div>
@@ -153,7 +150,7 @@
                 </div>    
             </div>
         </article>
-        <article class="container-fluid bg-dark pt-0">
+        <article class="container-fluid bg-dark pt-0" id="contato">
             <div class="container pb-5">
                 <div class="text-center">
                     <span class="h6 d-block text-light pt-5">A gap connect tem uma solução ideal para você!</span>
@@ -285,6 +282,10 @@
                         </address>
                     </div>
                 </div>
+            </div>
+            <div class="border-top container-fluid row justify-content-between text-center"  style="font-size: 15px">
+                <p class="col-lg-5 col-sm-6">Gap ©2019 Todos os direitos reservados</p>
+                <p class="col-lg-3 col-sm-6" ;">Desenvolvido por ▬Develops <kbd>WRD</kbd>▬</p>
             </div>
         </footer>        
         <!--Fim do codigo-->

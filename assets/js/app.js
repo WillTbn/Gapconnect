@@ -47,7 +47,7 @@ $(function(){
         $('#janela').fadeToggle();
     });
     $('.efeito-2').bind('click', function(){
-        $('#janela-2').fadeToggle();
+        $('#janela-2').fadeToggle('fast', 2);
     });
     $('.efeito-3').bind('click', function(){
         $('#janela-3').fadeToggle();
@@ -63,4 +63,15 @@ $(function(){
     $('#cpf').mask('000.000.000-00');
     $('#telefone').mask('(00) 0000-0000');
     $('#celular').mask('(00) 00000-0000');
+});
+$(function(e){
+    $('ul li:nth-child(1)').click(function(){
+		$('html, body').animate({scrollTop: $('#quemsomos').offset().top }, 2000);
+	});
+    $('ul li:nth-child(2)').click(function(){
+		$('html, body').animate({scrollTop: $('#vantagens').offset().top }, 3000);
+	});
+    $('ul li:nth-child(3)').click(function(){
+		$('html, body').animate({scrollTop: $('#contato').offset().top }, 3000);
+	});
 });
