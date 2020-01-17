@@ -30,7 +30,7 @@
             </button>
             <div id="navbarMenu" class="navbar-collapse collapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#quemsomos">Quem Somos</a>
                     </li>
                     <li class="nav-item">
@@ -42,11 +42,11 @@
                 </ul>
             </div>
         </nav>
-        <header class="container-fluid-lg mb-0">
+        <header class="container-fluid-lg mb-0 text-light">
             <div class="bg-principal text-center pt-md-5 pt-sm-3 pb-5 py-lg-5 py-sm-0">
-                <h1 class="h3 mt-md-5 mt-sm-5 mb-5 my-lg-5 my-sm-0 principal">A consultoria Financeira pessoal sob medida para você!</h1>
+                <h1 class="h3 mt-md-5 mt-sm-5 mb-5 my-lg-5 my-sm-0 principal">Gap connect consultoria sob medida para você!</h1>
                 <p class="lead">Vamos trabalhar junto para conquistar o tão sonhado.</p>
-                <b class="mb-5"> Agende a primeira reunião gratuita presencial ou pelo telefone!</b>
+                <b class="mb-0 lead"> Agende a primeira reunião gratuita presencial ou pelo telefone!</b>
             </div>
         </header>
         <article class="container-fluid pl-5 text-center mt-5 mb-5" id="vantagens">
@@ -108,7 +108,7 @@
                 </div>
             </div>
         </article>
-        <article class="container-fluid  pt-5 bg-danger" id="quemsomos" >
+        <article class="container-fluid  pt-5 gapbgred" id="quemsomos" >
             <div class="ml-5">
                 <span class="h2 d-block text-light">Como funciona a consultoria financeira?</span>
             </div>
@@ -150,7 +150,7 @@
                 </div>    
             </div>
         </article>
-        <article class="container-fluid bg-dark pt-0" id="contato">
+        <article class="container-fluid gapbg pt-0" id="contato">
             <div class="container pb-5">
                 <div class="text-center">
                     <span class="h6 d-block text-light pt-5">A gap connect tem uma solução ideal para você!</span>
@@ -235,23 +235,23 @@
                     </div>
                     <div class="dropdown-divider"></div>
                     <div class="pergunta">
-                        <a class="lead btn btn-block mb-3" data-toggle="collapse" data-parent="#duvidasfrequentes" href="#pergunta3" aria-expanded="true" aria-controls="pergunta3">➵A consultoria financeira pessoal pode ser aplicada à todos?</a>
+                        <a class="lead btn btn-block mb-3" data-toggle="collapse" data-parent="#duvidasfrequentes" href="#pergunta3" aria-expanded="true" aria-controls="pergunta3">➵Relizam visita aos finais de semana ?</a>
                         <div id="pergunta3" class="collapse" role="tabpanel">
-                            <p>A consultoria financeira é cabível a todos. Caso o cliente deseje ter as finanças mapeadas em um curto espaço de tempo, recomendações de aplicações financeiras, dicas profissionais, perfil dos seus gastos identificados e possíveis mudanças no mercado, a ajuda de um consultor financeiro pode lhe ser útil</p>
+                            <p>Não, trabalhos em horário comercia. Caso aza a nessecidade podemos exceder o horário comercial mais nunca realizamos reunião ou  visitas aos fim de semana.</p>
                         </div>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div class="pergunta">
-                        <a class="lead btn btn-block mb-3" data-toggle="collapse" data-parent="#duvidasfrequentes" href="#pergunta4" aria-expanded="true" aria-controls="pergunta4">➵A consultoria financeira pessoal pode ser aplicada à todos?</a>
+                        <a class="lead btn btn-block mb-3" data-toggle="collapse" data-parent="#duvidasfrequentes" href="#pergunta4" aria-expanded="true" aria-controls="pergunta4">➵A Gap Connect pedir realizanção de algum deposito?</a>
                         <div id="pergunta4" class="collapse" role="tabpanel">
-                            <p>A consultoria financeira é cabível a todos. Caso o cliente deseje ter as finanças mapeadas em um curto espaço de tempo, recomendações de aplicações financeiras, dicas profissionais, perfil dos seus gastos identificados e possíveis mudanças no mercado, a ajuda de um consultor financeiro pode lhe ser útil</p>
+                            <p>Nunca, pedimos a nosso cliente efetuação de nenhuma deposito de antecipação pelo nossos serviços. Somentes realizamos transações financeira ápos o acordo por meio de contrato na presença do cliente.</p>
                         </div>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div class="pergunta">
-                        <a class="lead btn btn-block mb-3" data-toggle="collapse" data-parent="#duvidasfrequentes" href="#pergunta5" aria-expanded="true" aria-controls="pergunta5">➵A consultoria financeira pessoal pode ser aplicada à todos?</a>
+                        <a class="lead btn btn-block mb-3" data-toggle="collapse" data-parent="#duvidasfrequentes" href="#pergunta5" aria-expanded="true" aria-controls="pergunta5">➵É preciso ter investimento para participa da consulta financeira?</a>
                         <div id="pergunta5" class="collapse" role="tabpanel">
-                            <p>A consultoria financeira é cabível a todos. Caso o cliente deseje ter as finanças mapeadas em um curto espaço de tempo, recomendações de aplicações financeiras, dicas profissionais, perfil dos seus gastos identificados e possíveis mudanças no mercado, a ajuda de um consultor financeiro pode lhe ser útil</p>
+                            <p>Não. Intendemos que o investimento pessoal tem varias vertentes, que vai alem do que esta relacionado a investimento financeiro. Se você que fazer aquela viagem ou compra aquele carro, nós o ajudaremos nesses e qual for outra necessidade pessoal que deseja esta realizando ou solucionando.</p>
                         </div>
                     </div>
                 </div>
@@ -264,13 +264,17 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="py-5">
                             <img id="gap" src="assets/img/slogan.png" >
-                            <p class="lead">Bem vindo a Gap consultoria. Somos uma união de consultores na area de contabil, que trabalha com a prestação de serviços na área de auditoria, consultoria, pericia e asses</p>
+                            <p class="lead pt-4">Bem vindo a Gap consultoria. </br>Somos uma união de consultores, com um equipe treinada e qualificada para melhor atende-lo. </br>Fazemos variás simulações antes de traçamos o melhor plano para nossos clientes.</br>
+                               
+                            </p>
                         </div>
                         <div class="borda_footer"></div>
                     </div>
                     <div class="col-md-6 col-sm-12">
-                        <h6 class="h1 pt-5">Fale conosco</h6>
+                        <p class="pt-5">Venha se consulta conosco!</p>
+                        <h6 class="h1 ">Fale conosco</h6>
                         <div class="borda_footer" id="terceira"></div>
+                        
                         <address class="">
                             <a class="text-decoration-none" href="mailto:contato@gapconnectconsultoria.com.br">
                                 <p class="text-white">contato@gapconnectconsultoria.com.br</p>
@@ -285,7 +289,7 @@
             </div>
             <div class="border-top container-fluid row justify-content-between text-center"  style="font-size: 15px">
                 <p class="col-lg-5 col-sm-6">Gap ©2019 Todos os direitos reservados</p>
-                <p class="col-lg-3 col-sm-6" ;">Desenvolvido por ▬Develops <kbd>WRD</kbd>▬</p>
+                <p class="col-lg-3 col-sm-6">Desenvolvido por ▬Develops <kbd>WRD</kbd>▬</p>
             </div>
         </footer>        
         <!--Fim do codigo-->

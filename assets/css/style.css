@@ -3,13 +3,23 @@ body{
     font-family: 'Baloo Bhai', cursive;
     overflow-x: hidden;
 }
+.principal{
+    padding-top: 8em;
+}
 .bg-principal{
     background-size: 100% 100%;
-    background-image: url(../img/fundo1.jpg);
+    background-image: url(../img/fotodelisafotios.jpg);
     background-repeat:no-repeat;
     background-position: top;
     width:100%;
     height: 40.8em;
+    box-shadow: inset 550px 550px 550px 550px rgba(22, 25, 31, 0.8);
+}
+.gapbgred{
+    background-color: #bd262E;
+}
+.gapbg{
+    background-color: #161925;
 }
 .borda_footer{
     width:120px;
