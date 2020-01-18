@@ -21,12 +21,12 @@
         <title>Gap Connect Consultoria</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a href="#" class="navbar-brand" >
+        <nav class="navbar navbar-expand-lg gapopacity">
+            <a href="#" class="gapcortext" >
                 <img class="ml-md-5 ml-sm-0" src="assets/img/slogan.png"  width="150" height="60" alt="Slogan gapconnect">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler gapborder" id="botaoroda" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="gaproda">═</br></span>
             </button>
             <div id="navbarMenu" class="navbar-collapse collapse">
                 <ul class="navbar-nav ml-auto">
@@ -37,7 +37,7 @@
                         <a class="nav-link" href="#vantagens">Vantagens</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-outline-secondary " href="#contato">Entra em Contato</a>
+                        <a class="btn btn-outline-danger " href="#contato">Entra em Contato</a>
                     </li>           
                 </ul>
             </div>

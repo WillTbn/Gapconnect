@@ -7,13 +7,33 @@ body{
     padding-top: 8em;
 }
 .bg-principal{
-    background-size: 100% 100%;
+    background-size: 100% 150%;
     background-image: url(../img/fotodelisafotios.jpg);
     background-repeat:no-repeat;
     background-position: top;
     width:100%;
     height: 40.8em;
     box-shadow: inset 550px 550px 550px 550px rgba(22, 25, 31, 0.8);
+}
+.gaproda{
+    color: #bd262E;
+}/*oque esta funcionando pela metade
+.gapborder:hover{
+    transform:rotate(90deg);
+    transition:all 2s;
+}*/
+.gapcortext{
+    color: #bd262E;
+}
+.gapborder{
+    border:solid 2px #bd262e;
+}
+.gapopacity{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 .gapbgred{
     background-color: #bd262E;

@@ -75,3 +75,12 @@ $(function(e){
 		$('html, body').animate({scrollTop: $('#contato').offset().top }, 3000);
 	});
 });
+function rodaitem(){
+    $('.gapborder').css('transform', 'rotate(180deg)').css('transition', 'all 2s');
+}
+function rodaitemdevolta(){
+    $('.gaproda').css('transform', 'rotate(0deg)');
+}
+$(function(){
+    $('#botaoroda').on('click', rodaitem);
+});
