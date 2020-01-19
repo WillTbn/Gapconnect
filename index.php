@@ -4,26 +4,45 @@
 <!doctype html>
 <html>
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156459776-2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156459776-2');
+        </script>
+
+        <title>Gap Connect Consultoria</title>
         <meta charset="utf-8" >
+        <meta http-equiv="content-language" content="pt-br">
+        <meta name="keywords" content="Gap Connect Consultoria, gap connect consultoria, gapconnect consultoria, emprestimo pessoal, consultoria financeira, financeira, emprestimo, metas financeiras ">
+        <meta name="title" content="Gap connect Consultoria">
+        <meta itemprop="image" content="https://www.gapconnectconsultoria.com.br/assets/img/fundo-description.png">
+        <meta name="description" content="Gap Connect consultoria - realizando sonhos!" >
+        <meta name="author" content="@jlbnwill">
+        <meta name="generator" content="VsCode">
+        <meta name="application-name" content="Gap connect consultoria">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="geo.region" content="BR-RJ" >
         <meta name="geo.placename" content="Rio de Janeiro" >
         <meta name="geo.position" content="-22.903052;-43.18617" >
-        <meta name="ICBM" content="-22.903052, -43.18617" >
-        <meta name="keywords" content="gapconnect, gapconsultoria, emprestimo pessoal, consultoria financeira, financeira, emprestimo, metas financeiras ">
-        <meta name="description" content="" >
-        <meta name="author" content="@jlbnwill">
-        <meta name="application-name" content="Gap connect consultoria">
-        <link rel="shortcut icon" href="assets/img/icones/img-shout-gap.png" type="image/png">
+        <meta name="ICBM" content="-22.903052, -43.18617">
+        <meta name="robots" content="index, follow">
+        <meta property="og:image" content="assets/img/gapconnect-description.png" />
+        <meta property="og:image:width" content="864" />
+        <meta property="og:image:height" content="415" />
+        <link rel="shortcut icon" href="assets/img/icones/img-shout-gapconnect.png" type="image/png">
         <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <title>Gap Connect Consultoria</title>
+        
     </head>
     <body>
         <nav class="navbar navbar-expand-lg gapopacity">
-            <a href="#" class="gapcortext" >
-                <img class="ml-md-5 ml-sm-0" src="assets/img/slogan.png"  width="150" height="60" alt="Slogan gapconnect">
+            <a href="https://www.gapconnectconsultoria.com.br" class="gapcortext" >
+                <img class="ml-md-5 ml-sm-0" src="assets/img/gapconnect-slogan.png"  width="150" height="60" alt="GAP Connect Consultoria">
             </a>
             <button class="navbar-toggler gapborder" id="botaoroda" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="gaproda">═</br></span>
@@ -54,63 +73,62 @@
             <div class="row pt-5 py-5">
                 <div class="col-lg-4 col-md-6  col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/casa_propria.png" class="img-fluid" style="max-width:280px">
+                        <img src="assets/img/icones/casa_propria.png" alt="Sua casa propria" class="img-fluid" style="max-width:280px">
                         <p class="h5">Compra sua casa própria</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6  col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/chave_carro.png" class="img-fluid mb-4" style="max-width:280px">
+                        <img src="assets/img/icones/chave_carro.png" alt="Seu carro" class="img-fluid mb-4" style="max-width:280px">
                         <p class="h5">Comprar um novo carro</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6  col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/casa_praia.png" class="img-fluid" style="max-width:280px">
+                        <img src="assets/img/icones/casa_praia.png" alt="Aquela casa de praia" class="img-fluid" style="max-width:280px">
                         <p class="h5">Comprar uma casa de praia</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6  col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/viagem.png" class="img-fluid" style="max-width:280px">
+                        <img src="assets/img/icones/viagem.png" alt="Viaje dos sonhos" class="img-fluid" style="max-width:280px">
                         <p class="h5">Fazer uma viagem dos sonhos</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/aposentar.png" class="img-fluid" style="max-width:280px">
+                        <img src="assets/img/icones/aposentar.png" alt="Mais seguridade na sua aposentadoria" class="img-fluid" style="max-width:280px">
                         <p class="h5">Se aponsentar cedo</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6  col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/dividas.png" class="img-fluid" style="max-width:280px">
+                        <img src="assets/img/icones/dividas.png" alt="Limpra seu nome" class="img-fluid" style="max-width:280px">
                         <p class="h5">Se ver livra das dívidas</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/planejar.png" class="img-fluid" style="max-width:280px">
+                        <img src="assets/img/icones/planejar.png" alt="Planeje seu futuro com mais segurança" class="img-fluid" style="max-width:280px">
                         <p class="h5">Planejar seu futuro</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6  col-sm-12">
                     <div class="">
-                        <img src="assets/img/icones/faculdade.png" class="img-fluid" style="max-width:280px">
+                        <img src="assets/img/icones/faculdade.png" alt="Futuro dos seus filhos" class="img-fluid" style="max-width:280px">
                         <p class="h5">Pagar a faculdade dos filhos</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6  col-sm-12">
                     <div class="">
                         <img src="assets/img/icones/1.png" class="img-fluid" style="max-width:280px">
-                        <p class="h5"></p>
                     </div>
                 </div>
             </div>
         </article>
         <article class="container-fluid  pt-5 gapbgred" id="quemsomos" >
             <div class="ml-5">
-                <span class="h2 d-block text-light">Como funciona a consultoria financeira?</span>
+                <h3 class="h2 d-block text-light">Como funciona a consultoria financeira?</h3>
             </div>
             <div class="row mt-5 py-md-3 py-sm-0 justify-content-center">
                 <div class="col-md-4 col-sm-12 text-center ">
@@ -263,7 +281,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <div class="py-5">
-                            <img id="gap" src="assets/img/slogan.png" >
+                            <img id="gap" src="assets/img/gapconnect-slogan.png" alt="Gap Connect consultoria">
                             <p class="lead pt-4">Bem vindo a Gap consultoria. </br>Somos uma união de consultores, com um equipe treinada e qualificada para melhor atende-lo. </br>Fazemos variás simulações antes de traçamos o melhor plano para nossos clientes.</br>
                                
                             </p>
