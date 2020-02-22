@@ -13,7 +13,6 @@
 
         gtag('config', 'UA-156459776-2');
         </script>
-
         <title>Gap Connect Consultoria</title>
         <meta charset="utf-8" >
         <meta http-equiv="content-language" content="pt-br">
@@ -34,7 +33,7 @@
         <meta property="og:image:width" content="864" />
         <meta property="og:image:height" content="415" />
         <link rel="shortcut icon" href="assets/img/icones/img-shout-gapconnect.png" type="image/png">
-        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         
@@ -42,7 +41,7 @@
     <body>
         <nav class="navbar navbar-expand-lg gapopacity">
             <a href="https://www.gapconnectconsultoria.com.br" class="gapcortext" >
-                <img class="ml-md-5 ml-sm-0" src="assets/img/gapconnect-slogan.png"  width="150" height="60" alt="GAP Connect Consultoria">
+                <img class="ml-md-5 ml-sm-0" src="assets/img/gapconnect-slogan-2.png"  width="150" height="60" alt="GAP Connect Consultoria">
             </a>
             <button class="navbar-toggler gapborder" id="botaoroda" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="gaproda">═</br></span>
@@ -50,85 +49,169 @@
             <div id="navbarMenu" class="navbar-collapse collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#quemsomos">Quem Somos</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#vantagens">Vantagens</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-outline-danger " href="#contato">Entra em Contato</a>
+                        <a class="nav-link" href="#quemsomos">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Entra em Contato</a>
                     </li>           
                 </ul>
             </div>
         </nav>
-        <header class="container-fluid-lg mb-0 text-light">
-            <div class="bg-principal text-center pt-md-5 pt-sm-3 pb-5 py-lg-5 py-sm-0">
-                <h1 class="h3 mt-md-5 mt-sm-5 mb-5 my-lg-5 my-sm-0 principal">Gap connect consultoria sob medida para você!</h1>
-                <p class="lead">Vamos trabalhar junto para conquistar o tão sonhado.</p>
+        <header class="container-fluid-lg mb-0 text-light"  alt="Canva-TwoMenShakingHands">
+            <div class="bg-principal text-center pt-md-5 pt-sm-5 pb-5 py-lg-5 py-sm-0" style="padding-top: 150px;">
+                <h1 class="h3 mt-md-5 mt-sm-5 mb-5 my-lg-5 my-sm-0 principal js-scroll">Gap Connect consultoria sob medida para você!</h1>
+                <p class="lead js-scroll">Vamos trabalhar junto para conquistar o tão sonhado.</p>
                 <b class="mb-0 lead"> Agende a primeira reunião gratuita presencial ou pelo telefone!</b>
             </div>
         </header>
-        <article class="container-fluid pl-5 text-center mt-5 mb-5" id="vantagens">
+        <article class="container-fluid pl-5 text-center mt-5 mb-5 " id="vantagens">
             <h2 class="h2 pb-5 borda_trans">Quais são suas metas?</h2>
-            <div class="row pt-5 py-5">
-                <div class="col-lg-4 col-md-6  col-sm-12">
-                    <div class="">
-                        <img src="assets/img/icones/casa_propria.png" alt="Sua casa propria" class="img-fluid" style="max-width:280px">
-                        <p class="h5">Compra sua casa própria</p>
+            <section class="row pt-5 py-5 justify-content-center">
+                <div class="col-lg-1 col-md-6  col-sm-12">
+                    <div class="js-manipula">
+                        <img src="assets/img/icones/casa_propria.png" alt="Sua casa propria" class="img-fluid">
+                        <p class="h5 font-weight-bold js-scroll">Compra sua casa própria</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6  col-sm-12">
-                    <div class="">
-                        <img src="assets/img/icones/chave_carro.png" alt="Seu carro" class="img-fluid mb-4" style="max-width:280px">
-                        <p class="h5">Comprar um novo carro</p>
+                <div class="col-lg-1 col-md-6  col-sm-12">
+                    <div class="js-manipula">
+                        <img src="assets/img/icones/chave_carro.png" alt="Seu carro" class="img-fluid mb-4">
+                        <p class="h5 font-weight-bold js-scroll">Comprar um carro</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6  col-sm-12">
-                    <div class="">
-                        <img src="assets/img/icones/casa_praia.png" alt="Aquela casa de praia" class="img-fluid" style="max-width:280px">
-                        <p class="h5">Comprar uma casa de praia</p>
+                <div class="col-lg-1 col-md-6  col-sm-12">
+                    <div class="js-manipula">
+                        <img src="assets/img/icones/casa_praia.png" alt="Aquela casa de praia" class="img-fluid">
+                        <p class="h5 font-weight-bold js-scroll">Comprar uma casa de praia</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6  col-sm-12">
-                    <div class="">
-                        <img src="assets/img/icones/viagem.png" alt="Viaje dos sonhos" class="img-fluid" style="max-width:280px">
-                        <p class="h5">Fazer uma viagem dos sonhos</p>
+                <div class="col-lg-1 col-md-6  col-sm-12">
+                    <div class="js-manipula">
+                        <img src="assets/img/icones/viagem.png" alt="Viaje dos sonhos" class="img-fluid">
+                        <p class="h5 font-weight-bold js-scroll">Fazer viagem dos sonhos</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="">
-                        <img src="assets/img/icones/aposentar.png" alt="Mais seguridade na sua aposentadoria" class="img-fluid" style="max-width:280px">
-                        <p class="h5">Se aponsentar cedo</p>
+                <div class="col-lg-1 col-md-6 col-sm-12">
+                    <div class="js-manipula">
+                        <img src="assets/img/icones/aposentar.png" alt="Mais seguridade na sua aposentadoria" class="img-fluid">
+                        <p class="h5 font-weight-bold js-scroll">Se aponsentar cedo</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6  col-sm-12">
-                    <div class="">
-                        <img src="assets/img/icones/dividas.png" alt="Limpra seu nome" class="img-fluid" style="max-width:280px">
-                        <p class="h5">Se ver livra das dívidas</p>
+                <div class="col-lg-1 col-md-6  col-sm-12">
+                    <div class="js-manipula">
+                        <img src="assets/img/icones/dividas.png" alt="Limpra seu nome" class="img-fluid">
+                        <p class="h5 font-weight-bold js-scroll">Se livra das dívidas</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="">
-                        <img src="assets/img/icones/planejar.png" alt="Planeje seu futuro com mais segurança" class="img-fluid" style="max-width:280px">
-                        <p class="h5">Planejar seu futuro</p>
+                <div class="col-lg-1 col-md-6 col-sm-12">
+                    <div class="js-manipula">
+                        <img src="assets/img/icones/planejar.png" alt="Planeje seu futuro com mais segurança" class="img-fluid">
+                        <p class="h5 font-weight-bold js-scroll">Planejar seu futuro</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6  col-sm-12">
-                    <div class="">
-                        <img src="assets/img/icones/faculdade.png" alt="Futuro dos seus filhos" class="img-fluid" style="max-width:280px">
-                        <p class="h5">Pagar a faculdade dos filhos</p>
+                <div class="col-lg-1 col-md-6  col-sm-12">
+                    <div class="js-manipula">
+                        <img src="assets/img/icones/faculdade.png" alt="Futuro dos seus filhos" class="img-fluid">
+                        <p class="h5 font-weight-bold js-scroll">Pagar a faculdade dos filhos</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6  col-sm-12">
-                    <div class="">
-                        <img src="assets/img/icones/1.png" class="img-fluid" style="max-width:280px">
+            <section>
+            <section class="container" id="quemsomos">
+                <p class="h1 mt-5">
+                Bem vindo a </br><b class="gapcortext text-monospace">Gap</b> <b class="gaptext-cinza text-monospace js-scroll" >connect</b>
+                </p>
+                <p>
+                Somos uma união de consultores, com um equipe treinada e qualificada para melhor atendê-lo.</p><p>
+                Fazemos várias simulações antes de traçamos o melhor plano para nossos clientes.</p>
+                <div class="row pt-5 py-5 justify-content-center">
+                    <div class="col-lg-3">
+                        <div>
+                            <img src="assets/img/icones/reducao-de-parcelas.png" alt="Atualização e redução de juros" class="imagens-fluid js-scroll">
+                            <h2 class="h3 gapcortext">Redução de parcelas.</h2>
+                            <div class=" row justify-content-center">
+                                <div class="lane col-2 "></div>
+                            </div>
+                            <p class="description-service text-justify">
+                                Realizamos atualizaçao em seu juros abusivo, caso detectamos essas necessidade. Ligamos para você e realizamos os procedimentos que melhor atendê-lo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                            <img src="assets/img/icones/credito-consignado.png" alt="Atualização e redução de juros" class="imagens-fluid js-scroll">
+                            <h2 class="h3 gapcortext">Crédito consignado</h2>
+                            <div class=" row justify-content-center">
+                                <div class="lane col-2 "></div>
+                            </div>
+                            <p class="description-service text-justify">
+                               É umas das linhas de crédito mais barata do mercado, por isso é uma mão na roda em várias situações.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                            <img src="assets/img/icones/restruturaçao.png" alt="Atualização e redução de juros" class="imagens-fluid js-scroll">
+                            <h2 class="h3 gapcortext">Restruturação</h2>
+                            <div class=" row justify-content-center">
+                                <div class="lane col-2 "></div>
+                            </div>
+                            <p class="description-service text-justify">
+                                O adequamos a menor taxa de juros vigente de acordo com seu perfil, negociamos com mais de um banco a melhor oferta para nossos clientes.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </article>
-        <article class="container-fluid  pt-5 gapbgred" id="quemsomos" >
+        <section class="container-fluid bg-frase text-center py-5" id="servicos" alt= "A imagen de fundo de reunião adiquirada no Canva é proprietario PhotoOfPeopleHavingMeeting">
+            <h1 class="py-5 gapcortext js-scroll"> Na GAP  CONNECT, estudamos a melhor solução para seu dinheiro render mais.</h1>
+        </section>
+        <article class="container-fluid text-center py-5" >
+            <h2 class="js-scroll">Temos o empréstimo certo para você !</h2>
+            <p class="gaptext-cinza "> Melhores taxas do mercado.</p>
+            <div class=" row justify-content-center">
+                <div class="lane col-2 "></div>
+            </div>
+            <section class="row justify-content-center pt-5">
+                <div class="col-lg-3 col-sm-6">
+                    <img src="assets/img/icones/republica-federal.jpeg" class="imagens-fluid-at js-scroll">
+                    <h3>Funcionários</h3>
+                    <div class=" row justify-content-center">
+                        <div class="lane col-2 "></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <img src="assets/img/icones/exercito-brasileiro.png" class="imagens-fluid-at js-scroll">
+                    <h3>Militares</h3>
+                    <div class=" row justify-content-center">
+                        <div class="lane col-2 "></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <img src="assets/img/icones/marinha-do-brasil.jpg" class="imagens-fluid-at js-scroll">
+                    <h3>Militares</h3>
+                    <div class=" row justify-content-center">
+                        <div class="lane col-2 "></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <img src="assets/img/icones/força-area.jpg" class="imagens-fluid-at js-scroll">
+                    <h3>Militares</h3>
+                    <div class=" row justify-content-center">
+                        <div class="lane col-2 "></div>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <article class="container-fluid  pt-5 gapbgred" >
             <div class="ml-5">
-                <h3 class="h2 d-block text-light">Como funciona a consultoria financeira?</h3>
+                <h3 class="h2 d-block text-light js-scroll">Como funciona a consultoria financeira?</h3>
             </div>
             <div class="row mt-5 py-md-3 py-sm-0 justify-content-center">
                 <div class="col-md-4 col-sm-12 text-center ">
@@ -172,7 +255,7 @@
             <div class="container pb-5">
                 <div class="text-center">
                     <span class="h6 d-block text-light pt-5">A gap connect tem uma solução ideal para você!</span>
-                    <h5 class="display-4 text-danger pb-5">Fale Conosco</h5>
+                    <h5 class="display-4 text-danger pb-5 js-scroll">Fale Conosco</h5>
                 </div>
                 <!--Sucesso no envio-->
                 <div class="j_seletor alert alert-success" id="j_sucesso" role="alert" >
@@ -281,7 +364,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <div class="py-5">
-                            <img id="gap" src="assets/img/gapconnect-slogan.png" alt="Gap Connect consultoria">
+                            <img id="gap" src="assets/img/gapconnect-slogan-2.png" alt="Slogan Gap Connect consultoria">
                             <p class="lead pt-4">Bem vindo a Gap consultoria. </br>Somos uma união de consultores, com um equipe treinada e qualificada para melhor atende-lo. </br>Fazemos variás simulações antes de traçamos o melhor plano para nossos clientes.</br>
                                
                             </p>
@@ -298,9 +381,9 @@
                                 <p class="text-white">contato@gapconnectconsultoria.com.br</p>
                             </a>
                             <a class="text-decoration-none text-white" href="tel:213655-9999">
-                                <p class="lead">(21)3655-9999</p>
+                                <p class="lead">(21)3128-5055</p>
                             </a>
-                            <a class="text-decoration-none text-white" href="https://www.google.com/maps/place/Servi%C3%A7o+Registral+do+11%C2%BA+Of%C3%ADcio+de+Im%C3%B3veis/@-22.9017288,-43.1811983,3a,75y,331.25h,93.28t/data=!3m7!1e1!3m5!1s_5cl0nkm3DxZFklqHiqdyQ!2e0!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3D_5cl0nkm3DxZFklqHiqdyQ%26output%3Dthumbnail%26cb_client%3Dsearch.TACTILE.gps%26thumb%3D2%26w%3D211%26h%3D120%26yaw%3D331.52408%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656!4m5!3m4!1s0x997f5c5b8fdb1b:0x636b1fc1fa537351!8m2!3d-22.9015114!4d-43.1813171"><p class="lead">Av. Presidente Vargas, n°542, 13ºandar - sala 1304 - Rio de Janeiro/RJ.</p></a>
+                            <a class="text-decoration-none text-white" href="https://www.google.com/maps/place/Av.+Rio+Branco,+Rio+de+Janeiro+-+RJ/@-22.8983259,-43.1802522,3a,75y,238.78h,86.14t/data=!3m6!1e1!3m4!1snJbDJvjTtYzj77P7REBC5A!2e0!7i13312!8i6656!4m5!3m4!1s0x997f5e453810bf:0x36663ec7ca8b5720!8m2!3d-22.9059821!4d-43.1773249"><p class="lead">Av. Rio Branco n14 - 2º andar - Rio de Janeiro/RJ.</p></a>
                         </address>
                     </div>
                 </div>

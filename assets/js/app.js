@@ -66,12 +66,15 @@ $(function(){
 });
 $(function(e){
     $('ul li:nth-child(1)').click(function(){
-		$('html, body').animate({scrollTop: $('#quemsomos').offset().top }, 2000);
+		$('html, body').animate({scrollTop: $('#vantagens').offset().top }, 2000);
 	});
     $('ul li:nth-child(2)').click(function(){
-		$('html, body').animate({scrollTop: $('#vantagens').offset().top }, 3000);
+		$('html, body').animate({scrollTop: $('#quemsomos').offset().top }, 3000);
 	});
     $('ul li:nth-child(3)').click(function(){
+		$('html, body').animate({scrollTop: $('#servicos').offset().top }, 3000);
+    });
+    $('ul li:nth-child(4)').click(function(){
 		$('html, body').animate({scrollTop: $('#contato').offset().top }, 3000);
 	});
 });
@@ -84,3 +87,34 @@ function rodaitemdevolta(){
 $(function(){
     $('#botaoroda').on('click', rodaitem);
 });
+function ManipulaFluid(){
+    const mobile = window.matchMedia('(max-width: 600px)');
+    const SelecionarImg = document.querySelectorAll('.js-manipula img');
+    if(mobile.matches){
+        SelecionarImg.forEach((img) =>{
+            img.classList.remove('img-fluid');
+            img.classList.add('js-img')
+        });
+    }
+}
+ManipulaFluid();
+function initAnimaScroll(){
+    const SelecionarSection = document.querySelectorAll('.js-scroll');
+    if(SelecionarSection.length){
+        const windowMetade = window.innerHeight * 0.7;
+
+        function animaScroll(){
+            SelecionarSection.forEach((section) => {
+                const at = 'ativo';
+                const sectionTop = section.getBoundingClientRect().top;
+                const isSectionVisible = (sectionTop - windowMetade) < 0;
+                if(isSectionVisible) {
+                    section.classList.add(at);
+                }
+            });
+        }
+        animaScroll();
+        window.addEventListener('scroll', animaScroll);
+    }
+}
+initAnimaScroll();

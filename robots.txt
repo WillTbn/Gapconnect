@@ -1,3 +1,2 @@
-User-agent:*
-Disallow:/assets/js
-sitemap:https://www.gapconnectconsultoria.com.br/sitemap.xml
+User-agent: *
+Disallow: /assets/js
