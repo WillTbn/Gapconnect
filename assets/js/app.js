@@ -118,3 +118,29 @@ function initAnimaScroll(){
     }
 }
 initAnimaScroll();
+function initAnimarNumeros(){
+    function animaNumeros(){
+        const numeros = document.querySelectorAll('[data-numeros]');
+        numeros.forEach((numero)=>{
+            const total = +numero.innerText;;
+            
+            let start = 0;
+            const timer = setInterval(() => {
+                start++;
+                numero.innerText = start;
+                if(start > total)
+                clearInterval(timer)
+            }, 75 * Math.random());
+        })
+    }
+    function handleMutation(mutation){
+        if(mutation[0].target.classList.contains('ativo')){
+            observer.disconnect();
+            animaNumeros();
+        }
+    }
+    const obserberTarget = document.querySelector('.numeros');
+    const observer = new  MutationObserver(handleMutation);
+    observer.observe(obserberTarget, {attributes: true})
+}
+initAnimarNumeros();

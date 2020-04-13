@@ -26,6 +26,7 @@ $Mailer->FromName = ($Nome);
 $Mailer->From = 'contato@gapconnectconsultoria.com.br'; 
 $Mailer->AddAddress("guilherme@gapconnectconsultoria.com.br");
 $Mailer->AddAddress("paulo@gapconnectconsultoria.com.br");
+$Mailer->AddAddress("jlbnunes@live.com");
 $Mailer->IsHTML(true);
 $Mailer->Subject = "Cliente - {$Nome}".date(" d/m/Y");
 $Mailer->Body = "

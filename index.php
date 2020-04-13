@@ -171,6 +171,20 @@
         </article>
         <section class="container-fluid bg-frase text-center py-5" id="servicos" alt= "A imagen de fundo de reunião adiquirada no Canva é proprietario PhotoOfPeopleHavingMeeting">
             <h1 class="py-5 gapcortext js-scroll"> Na GAP  CONNECT, estudamos a melhor solução para seu dinheiro render mais.</h1>
+            <div class="row text-white numeros js-scroll">
+                <div class="col-lg-4 col-sm-12">
+                    <span data-numeros class="h1">530</span>
+                    <h3 class="h5">Clientes Satisfeitos</h3>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <span class="h1">0</span>
+                    <h3 class="h5">Reclamações no reclame aqui</h3>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <span id="porcento" data-numeros class="h1">95</span>
+                    <h3 class="h5">Indicam a Gap</h3>
+                </div>
+            </div>
         </section>
         <article class="container-fluid text-center py-5" >
             <h2 class="js-scroll">Temos o empréstimo certo para você !</h2>
@@ -260,7 +274,8 @@
                 <!--Sucesso no envio-->
                 <div class="j_seletor alert alert-success" id="j_sucesso" role="alert" >
                     <h4 class="alert-heading">obrigado!</h4>
-                    <p>Dentro de no máximo 3 dias, um de nossos consultores entrará em contato com você por telefone.</p>
+                    <p>Devido a atual quadro de pandemia, estamos trabalhando com equipe reduzida.</p>
+                    <p>Nosso retorno deve demora mais que os normal, mais faremos o mais rápido póssivel.</p>
                     <hr>
                     <p class="mb-0">Não pedidos nenhum deposito adiantado, para efetuar nenhuma transação.</p>
                 </div>
