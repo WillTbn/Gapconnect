@@ -405,7 +405,12 @@
             </div>
             <div class="border-top container-fluid row justify-content-between text-center"  style="font-size: 15px">
                 <p class="col-lg-5 col-sm-6">Gap ©2019 Todos os direitos reservados</p>
-                <p class="col-lg-3 col-sm-6">Desenvolvido por ▬Develops <kbd>WRD</kbd>▬</p>
+                <p class="col-lg-5 col-sm-6 text-muted">
+                Desenvolvido por 
+                <a href="http://jorgenunes.woza.com.br">
+                    <img src="http://jorgenunes.woza.com.br/assets/img/icones/Jorge-Nunes_df.png" width="30" height="20" alt="">
+                </a>
+            </p>
             </div>
         </footer>        
         <!--Fim do codigo-->
