@@ -16,4 +16,4 @@ Layout desktop
 ![layout desktop](https://github.com/WillTbn/Gapconnect/blob/master/assets/layout-desktop.png)
 
 
->Pagina se encontra inativa, *impressa deixo de existe*
+>Pagina se encontra inativa, *empressa deixo de existe*
