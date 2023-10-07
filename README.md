@@ -13,7 +13,7 @@ Projeto web, para empresa de consultoria financeira.
 Usamos html5, css3, javascript, bootstrap para responsividade, php, PHPMailer para contato de cliente com os responsaveis da empresa.
 
 Layout desktop
-![layout desktop](https://github.com/WillTbn/Gapconnect/blob/master/assets/gap-connect.jpg)
+![layout desktop](https://github.com/WillTbn/Gapconnect/blob/master/assets/img/gap-connect.jpg)
 
 
 >Pagina se encontra inativa, *empressa deixo de existe*
